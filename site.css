@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+#home{
+    background-color:blueviolet;
+    display: flex;
+    justify-content: space-between;
+    color:azure;
+    font-family: Arial;
+    margin-bottom: 50px;
+}
+.info{
+    padding: 20px 30px 8px 30px;
+}
+.email{
+    padding-top: 5PX;
+    padding-bottom: 2PX;
+    display: flex;
+}
+.email i{
+    
+    padding-right: 5px;
+    border-radius: 50%;
+    width: 20px;
+}
+.phone i{
+    padding-right: 5px;
+    border-radius: 50%;
+    width: 20px;
+}
+.phone{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+ul{
+    padding: 30px 30px 30px;
+    font-size: 15px;
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+ul a:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.parag .title img{
+    width: 40px;
+    padding-left: 5px;
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+.parag p{
+    color: gray;
+}
+.parag{
+    padding: 50px;
+    padding-top: 50px;
+    width: 50%;
+}
+.aboutme img{
+    padding-left: 50px;
+    width :300px;
+}
+#skills{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.html,.css,.python,.java,.c,.javascript{
+    
+    width: 120px;
+    padding: 20px;
+    margin: 40px;
+    margin-left: 30px;
+    border: 2px solid rgb(205, 200, 200);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(66, 66, 66, 0.3);
+}
+.html img{
+    width: 50px;
+    padding-bottom: 20px;
+}
+.css img{
+    width: 20px;
+    padding-bottom: 20px;
+}
+.python img{
+    width: 30px;
+    padding-bottom: 20px;
+}
+.java img{
+    width: 60px;
+    padding-bottom: 20px;
+}
+.javascript img{
+    width: 30px;
+    padding-bottom: 20px;
+}
+.c img{
+    width: 30px;
+    padding-bottom: 20px;
+}
+.skills #skills p{
+    padding-top: 20px;
+}
+.projects  h3 {
+    font-weight: bolder;
+    padding: 10px;
+    padding-left: 40px;
+}
+.projects a{
+    color: rgb(8, 7, 7);
+}
+.projects ul{
+    width: 100%;
+    padding: 10px;
+    padding-left: 80px;
+    list-style-type:disc;
+
+}
+.projects p{
+    text-align: center;
+    color: rgb(184, 180, 180);
+}
+h1{
+    padding-left: 20px;
+    color:blueviolet;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.rec1{
+    padding: 20px;
+    margin: 15px;
+    margin-bottom: 50px;
+    border: 2px solid rgb(205, 200, 200);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(66, 66, 66, 0.3);
+}
+#rec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.js{
+    text-align: center;
+}
+.leaverec h3{
+    text-align: center;
+    padding-right: 160px;
+    font-size:30px;
+    font-weight:500;
+    padding-bottom: 20px;
+    font-family: system-ui;
+}
+#nam{
+    margin-bottom: 20px;
+    width: 500px;
+}
+#msg{
+    resize: none;
+    width: 500px;
+    height: 250px;
+}
+#recommend_btn{
+    margin-top: 50px;
+    border-color: blueviolet;
+    color: blueviolet;
+    background-color: transparent;
+    border: 1px solid;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight:bold;
+}
+.icon {
+    
+    width: 98%;
+    text-align: right;
+
+}
+.recommendations{
+    text-align: center;
+}
+#popup{
+    margin: 0 auto;
+    padding: 0PX 20px;
+    padding-top: 20px;
+    border: 0px solid;
+    background-color:rgb(208, 172, 242);
+    border-radius: 5px;
+    width: 300px;
+    height: 170px;
+    text-align: center;
+    transform: translateY(-130%);
+    display: none;
+}
+#ok{
+    margin-top: 30px;
+    border-color: blueviolet;
+    color: blueviolet;
+    background-color: white;
+    border: 1px solid;
+    padding: 9px 60px;
+    border-radius: 5px;
+    font-weight:bold; 
+}
+#popup img{
+    width: 40px;
+    padding-bottom: 20px;
+}

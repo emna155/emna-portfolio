@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div id="home">
+        <div class="info">
+            <div class="profile-name"><h3>Emna Hajri</h3></div>
+            
+            <div class="email"><i class='bx bx-envelope' ></i>
+                <h6>emnaha7@gmail.com</h6></div>
+            <div class="phone"><i class='bx bx-phone' ></i>
+                <h6>+216 29 743 489</h6>
+            </div></div>
+            <div class="nav"><ul>
+                <li><a href="#1">About Me</a></li>
+                <li><a href="#2">Skills</a></li>
+                <li><a href="#3">Projects</a></li>
+                <li><a href="#4">Recommendations</a></li>
+            </ul></div>
+    </div>
+    <div id="1" class="aboutme">
+        <img src="profile.png" alt="my photo">
+    <div class="parag">
+        <div class="title"><h1>Hi, I'm Emna Hajri ! <img src="hi.png" alt=""></h1>
+        </div>
+        <p> am a Computer Science Engineer with a solid 
+            foundation in programming, system design, 
+            and problem-solving. Proficient in languages 
+            such as Python, Java, and C, I have hands-on 
+            experience in developing and optimizing software 
+            solutions. With a strong focus on delivering 
+            efficient, high-quality systems, I am eager to 
+            apply my skills and continue contributing to 
+            advancements in technology.
+        </p></div>
+    </div>
+    <div class="skills" id="2">
+        <h1>Skills</h1>
+        <div id="skills">
+            <div class="html">
+            <img src="html.png" alt="html">
+            <h5>HTML</h5>
+            <p>4 year experiance</p>
+        </div>
+        <div class="css">
+            <img src="CSS.png" alt="css">
+            <h5>CSS</h5>
+            <p>4 year experiance</p>
+        </div>
+        <div class="python">
+            <img src="Python.png" alt="python">
+            <h5>PHYTHON</h5>
+            <p>2 year experiance</p>
+        </div>
+        <div class="javascript">
+            <img src="js.png" alt="java">
+            <h5>JAVA</h5>
+            <p>1 year experiance</p>
+        </div>
+        <div class="java">
+            <img src="java.png" alt="java">
+            <h5>JAVA</h5>
+            <p>1 year experiance</p>
+        </div>
+        <div class="c">
+            <img src="c.png" alt="c">
+            <h5>C</h5>
+            <p>3 year experiance</p>
+        </div>
+        </div>
+        
+    </div>
+    <div class="projects" id="3">
+        <h1>projects</h1>
+        <h3><a href="#"> To-Do List Website</a></h3>
+        <ul>
+            <li>A basic task manager where users can add, edit, and delete task The tasks are
+                stored in the browser’s local storage. </li></ul>
+        <p>__________________________________________________________________________________________</p>
+        <h3><a href="#">Interactive Quiz Website </a></h3>
+        <ul><li>A quiz website where users can answer multiple-choice questions. JavaScript is used 
+            to calculate the score and show a result at the end</li></ul>
+        
+       
+       <p>__________________________________________________________________________________________</p>
+        <h3><a href="#">Recipe Book Website </a></h3>
+        <ul><li>A website to display and organize your favorite recipes, 
+            with options to add and search for dishes.</li></ul>
+        
+       </div>
+    <div class="recommandations" id="4">
+        <h1>Recommendations</h1>
+        <div id="rec">
+        </div>
+        <div id="popup" > 
+            <img src="tik.png" alt="">
+            <h4>Thanks for leaving recommendation!</h4>
+            <button onclick="closepopup()" id="ok">OK</button>
+        </div>
+        
+       </div>
+    <div class="leaverec">
+        <h3>Leave a Recommandation</h3>
+        <div class="js"><input id="nam" type="text" placeholder="Name (optional)">
+            <br>
+            <textarea  id="msg" placeholder=" Message"></textarea>
+            
+            
+            <br><button onclick="addRecommendation()" id="recommend_btn">Submit</button></div>
+        
+    </div>
+    
+    <div class="icon"><a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="blueviolet" width="50px"   >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+    </a></div>
+    
+    
+    
+    <script src="site.js"></script>
+</body>
+</html>
